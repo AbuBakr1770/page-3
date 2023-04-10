@@ -1,0 +1,79 @@
+.upper-part{
+    background-image: url('./assets/elements.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-img-1{
+    height: auto;
+    width: 40%;
+}
+.logo-img-2{
+    height: auto;
+    width: 40%;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .bg-img-2 {
+        height: 347px;
+        width: 248px;
+        z-index: 1;
+        margin-left: 27vh;
+        position: relative;
+    }
+
+    .laptop-img {
+        height: 100px;
+        /* width: 40%; */
+        z-index: 2;
+        margin-left: 0%;
+        position: relative;
+    }
+
+ }
+  
+/* .bg-img-2{
+    height: 360px;
+    width: 248px;
+    z-index: 2;
+    position: relative;
+} */
+
+
+
+.text-details{
+    background-image: linear-gradient(to right, #273c90,#3963d5);
+}
+
+.gold{
+    color: #fec35b;
+}
+
+.laptop {
+    position: relative;
+    margin-top: -17vh;
+    font-size: 23px;
+    padding: 1%;
+    z-index: 1;
+    height: 100px;
+  }
+  
+  .laptop::before{
+    content: '';
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+    height: 38%;
+    background-image: linear-gradient(to right, #273c90,#3963d5);
+    z-index: -1;
+  }
+
+  .laptop-img{
+    height: 100px;
+    z-index: 2;
+    margin-left: 22%;
+    position: relative;
+  }
